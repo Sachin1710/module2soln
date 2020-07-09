@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Sachin1710/module2soln/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Sachin1710/module2soln/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" > <!--For responsive design -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--needed for some versions of internet explorer-->
+	<title>first project</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+	<h1>my life</h1>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-6"><p class="intro">INTRODUCTION</p>i am an engineering student studying in chennai institute of technology which is in chennai and my name is sachin ,there is nothing useful in this world to speak yet i consider my self very usefull because i have seen all the phases of life including parents,relatives,friends,teachers.etc</div>
+			<div class="col-lg-4 col-md-6 col-sm-6"><p class="games">AMBITION</p>yes.....all members of this world must be bonded to games especially cricket...yes,i am also fond of cricket and i am playing cricket in my college and i am the captain of the team and to same about me i am not a big-hitter a sensible batsman..due to this lockdown i am suffering a lot because of getting separated away from cricket</div>
+			<div class="col-lg-4 col-xs-6"><p class="conc">CONCLUSION</p>what to say?...i want to become a cricketer as well but the circumstances dont allow me to become what i want so in life there is only one main thing to be considered that is always be happy..and i am trying to be</div>
+	
+		</div>
+	</div>
+	<script type="text/javascript" href="bootstrap.min.js"></script>
+</body>
+</html>
